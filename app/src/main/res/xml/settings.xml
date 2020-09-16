@@ -1,0 +1,44 @@
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <android.support.v7.preference.PreferenceCategory
+        android:title="Settings"/>
+
+    <android.support.v7.preference.CheckBoxPreference
+        android:key="checkBoxViewType"
+        android:title="Prefer Card View"
+        android:summary="View mails in cards layout"
+        android:defaultValue="false"
+        android:textSize = "10dp"/>
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:key="keyAutoDeleteSocialMails"
+        android:title="Auto-delete mails"
+        android:summary="Auto delete social category mails after two months"
+        android:defaultValue="false"
+        android:textSize = "10dp"/>
+
+    <Preference
+        android:title="Delete old emails"
+        android:summary="Delete non-primary mails older than 1 year"
+        android:key="deleteOld">
+    </Preference>
+
+    <Preference
+        android:title="Change organization name"
+        android:summary="Configure organization name"
+        android:key="keyEditOrganizationName">
+    </Preference>
+
+    <Preference
+        android:title="Emails category priority list"
+        android:summary="Configure priority categories"
+        android:key="keyPriorityCategoryList">
+    </Preference>
+
+    <Preference
+        android:title="Emails sender priority list"
+        android:summary="Configure priority sender list"
+        android:key="keyPriorityList">
+    </Preference>
+</android.support.v7.preference.PreferenceScreen>

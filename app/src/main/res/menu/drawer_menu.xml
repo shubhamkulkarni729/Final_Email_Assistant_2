@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:title="Categories"
+        android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/nav_all_mails"
+                android:icon="@drawable/ic_all_mails"
+                android:title="All Mails" />
+            <item
+                android:id="@+id/nav_primary_mails"
+                android:icon="@drawable/ic_primary_mails"
+                android:title="Primary Mails" />
+            <item
+                android:id="@+id/nav_organizational_mails"
+                android:icon="@drawable/ic_organization_mails"
+                android:title="Organization Mails" />
+            <item
+                android:id="@+id/nav_social_mails"
+                android:icon="@drawable/ic_social_mails"
+                android:title="Social Mails" />
+            <item
+                android:id="@+id/nav_job_mails"
+                android:icon="@drawable/ic_job_mails"
+                android:title="Job Mails" />
+            <item
+                android:id="@+id/nav_educational_mails"
+                android:icon="@drawable/ic_educational_mails"
+                android:title="Educational Mails" />
+            <item
+                android:id="@+id/nav_offer_mails"
+                android:icon="@drawable/ic_offer_mails"
+                android:title="Offer Mails" />
+            <item
+                android:id="@+id/nav_financial_mails"
+                android:icon="@drawable/ic_fianancial_mails"
+                android:title="Financial Mails" />
+            <item
+                android:id="@+id/nav_urgent"
+                android:icon="@drawable/urgent"
+                android:title="Urgent Mails" />
+            <item
+                android:id="@+id/nav_other_mails"
+                android:icon="@drawable/ic_other_mails"
+                android:title="Other Mails" />
+
+        </menu>
+    </item>
+
+    <item android:title="Others" >
+    <menu>
+        <item
+            android:id="@+id/insight_parent"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Insights" />
+
+        <item
+            android:id="@+id/compose_email"
+            android:icon="@drawable/compose"
+            android:title="@string/compose_email" />
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/event"
+            android:title="Events" />
+        <item
+            android:id="@+id/sms"
+            android:icon="@drawable/sms"
+            android:title="SMS" />
+    </menu>
+    </item>
+
+    <item android:title="Views">
+        <menu>
+            <item
+                android:id="@+id/swipe_view"
+                android:icon="@drawable/ic_educational_mails"
+                android:title="Swipe View" />
+            <item
+                android:id="@+id/mailbox"
+                android:icon="@drawable/ic_all_mails"
+                android:title="Mailbox View" />
+        </menu>
+    </item>
+
+    <item android:title="Preferences">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+        </menu>
+    </item>
+</menu>

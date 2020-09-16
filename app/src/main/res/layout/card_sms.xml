@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:descendantFocusability="beforeDescendants">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="15dp"
+        android:background="@color/colorAccent"
+        android:descendantFocusability="afterDescendants">
+
+        <TextView
+            android:id="@+id/line1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Text line 1"/>
+
+        <TextView
+            android:id="@+id/label"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textColor="#FF0000"
+            android:text="Label : "/>
+
+        <TextView
+            android:id="@+id/sms_date"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textColor="#FF0000"
+            android:text=" "/>
+
+        <TextView
+            android:id="@+id/avl_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avaailable balance"
+            android:textColor="#8BC34A"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/line2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text line 2"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/billbtn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#0000FF"
+            android:background="@color/colorPrimaryDark"
+            android:text="Pay"/>
+
+    </LinearLayout>
+</FrameLayout>
